@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <link rel="stylesheet" href="index.html">
+
+    <style>
+        *{
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        form label{
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Fill Up This Form</h1>
+         <label for="name">
+          Your Name: <input type="text" placeholder="Your Name">
+         </label>
+         <label for="email"> Your Email: <input type="text" placeholder="Email"></label>
+         <label for="number"> Your Number: <input type="number" placeholder="Phone Number"></label>
+
+         <fieldset>
+            <legend> Pick one </legend>
+            <label for="citoy"> <input type="radio" name="pitha" id="chitoy">Chitoy</label>
+            <label for="vapa"> <input type="radio" name="pitha" id="vapa">Vapa</label>
+            <label for="patishapta"> <input type="radio" name="pitha" id="patishapta">Patishapta</label>
+         </fieldset>
+
+         <fieldset>
+            <legend>Pick one or more</legend>
+            <label for="Shorisha"> <input type="checkbox" name="vorta" id="shorisha">Shorisha</label>
+            <label for="dhonia"> <input type="checkbox" name="vorta" id="dhonia">Dhonia</label>
+            <label for="morich"> <input type="checkbox" name="vorta" id="morich">Morich</label>
+         </fieldset>
+         <legend>Feedback</legend>
+            <textarea name="feedback" id="feedback" cols="20" rows="5"></textarea>
+        
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+      </form>
+</body>
+</html>
+
